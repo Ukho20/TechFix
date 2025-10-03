@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFix Solutions | Home</title>
+  <link rel="stylesheet" href="homestyles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">TechFix <span>Solutions</span></div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Reliable IT & Tech Solutions</h1>
+      <p>From computer repairs to network setups, TechFix Solutions has got you covered.</p>
+      <a href="services.html" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlights">
+    <div class="highlight">
+      <h2>💻 Computer Repairs</h2>
+      <p>Fast and affordable PC & laptop repairs for businesses and individuals.</p>
+    </div>
+    <div class="highlight">
+      <h2>🌐 Networking</h2>
+      <p>Seamless home and office network setup, security, and maintenance.</p>
+    </div>
+    <div class="highlight">
+      <h2>⚙️ Software Solutions</h2>
+      <p>Custom software, troubleshooting, and installations tailored to your needs.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TechFix Solutions | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>

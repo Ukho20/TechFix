@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFix Solutions | About Us</title>
+  <link rel="stylesheet" href="homestyles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">TechFix <span>Solutions</span></div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- About Hero -->
+  <section class="about-hero">
+    <div class="hero-text">
+      <h1>About Us</h1>
+      <p>Who we are and why we’re passionate about technology.</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="about-content">
+    <div class="container">
+      <h2>Our Story</h2>
+      <p>
+        Founded in 2025, <strong>TechFix Solutions</strong> was created with one mission in mind: 
+        to make technology simple, reliable, and accessible for everyone. 
+        From humble beginnings fixing laptops for friends, we’ve grown into a trusted provider 
+        of IT support for homes and businesses.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        We aim to deliver <em>fast, affordable, and professional</em> IT solutions that 
+        empower individuals and organizations to work smarter. 
+        Whether it’s repairing devices, setting up networks, or creating custom software, 
+        we’re here to help.
+      </p>
+
+      <h2>Our Vision</h2>
+      <p>
+        To become the go-to IT services provider in South Africa and beyond, 
+        known for reliability, trust, and innovation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TechFix Solutions | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>

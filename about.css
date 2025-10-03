@@ -1,0 +1,26 @@
+/* About Page */
+.about-hero {
+  background: url('https://images.unsplash.com/photo-1581091870622-74c0de37f2ad?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+  height: 60vh;
+}
+
+.about-content {
+  background: #fff;
+  padding: 50px 20px;
+}
+
+.about-content .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-content h2 {
+  margin: 20px 0 10px;
+  color: #0d47a1;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

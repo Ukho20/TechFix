@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFix Solutions | Contact</title>
+  <link rel="stylesheet" href="homestyles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">TechFix <span>Solutions</span></div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Contact Hero -->
+  <section class="hero contact-hero">
+    <div class="hero-text">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you. Get in touch today!</p>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info -->
+  <section class="contact-section">
+    <div class="container">
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="6" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>📍 123 Tech Street, Grahamstown, South Africa</p>
+        <p>📞 +27 12 345 6789</p>
+        <p>📧 support@techfix.com</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TechFix Solutions | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
